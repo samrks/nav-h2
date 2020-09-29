@@ -68,8 +68,8 @@
       // 生成一个文件读取的对象
       const reader = new FileReader()
       reader.onload = function (e) {
-        // base64码 :e.target/e.target.result
-        console.log("e.target:", e.target)
+        // base64码 : e.target.result
+        console.log("e.target:", e.target,e.target.result)
         bgIMG.src = e.target.result
         localStorage.setItem("bgIMG", e.target.result)
       }

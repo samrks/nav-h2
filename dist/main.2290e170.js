@@ -208,7 +208,7 @@ document.addEventListener("keypress", function (e) {
 
 
   if (input0.value && key === "Enter") {
-    var searchValue = input0.value.replace(/\+/g, "%2B"); // 解决：搜索中无法识别加号
+    var searchValue = input0.value.replace(/\+/g, "%2B"); // 解决：搜索内容中无法识别加号
 
     var searchEngine = document.querySelector(".searchOpt.selected"); // console.log(`searchEngine: ${searchEngine}`)
 
@@ -247,12 +247,6 @@ input0.addEventListener("focus", function () {
       isInputFocus = false;
     }
   });
-});
-/*
-* 键盘按下：监听回车搜索、按键动效
-* */
-
-document.addEventListener("keypress", function (e) {// console.log("当前按下的按键是：", e.key)
 });
 /*
 * 切换搜索引擎，添加样式
@@ -497,18 +491,22 @@ function backToHome() {
   searchOptBox.classList.remove("show");
   bgIMG.classList.remove("inputFocus");
   input0.classList.remove("focus");
-  file.style.opacity = "0";
   input0.blur();
   input0.value = "";
+  file.style.opacity = "0";
+  file.style.visibility = "hidden";
 } // 样式修改：进入详情页
 
 
 function goToDetail() {
   isHomePage = false;
-  input0.classList.add("focus");
   searchOptBox.classList.add("show");
   bgIMG.classList.add("inputFocus");
-  file.style.opacity = "1";
+  input0.classList.add("focus");
+  file.style.visibility = "visible";
+  setTimeout(function () {
+    file.style.opacity = "1";
+  });
 }
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.c20598de.js.map
+//# sourceMappingURL=main.2290e170.js.map

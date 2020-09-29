@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="一个轻快简洁的浏览器起始页。">
   <title>氢起始页 | H₂ Start Page</title>
-  <link rel="stylesheet" href="style.3e824d15.css">
+  <link rel="stylesheet" href="style.01b8ba5c.css">
   <link rel="shortcut icon" href="https://imgsubmit.oss-cn-beijing.aliyuncs.com/img/favicon.png">
   <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -18,7 +19,7 @@
       </svg>
     </div>
     <div class="cover" id="cover"></div>
-    <img src="bg.4addaeae.jpg" alt="" class="bgIMG" id="bgIMG">
+    <img src="bg.52cfbd6a.jpg" alt="" class="bgIMG" id="bgIMG">
     <main>
       <div class="SearchBox">
         <div id="time" class="time">
@@ -58,7 +59,7 @@
     </footer>
   </div>
   <script src="//at.alicdn.com/t/font_2184213_0qgzuosip2ls.js"></script>
-  <script src="main.c20598de.js"></script>
+  <script src="main.2290e170.js"></script>
   <script>// 动态上传背景图片（转base64，存入ls）
 function imgChange(img) {
   console.log("img.files:", img.files); // 生成一个文件读取的对象
@@ -66,8 +67,8 @@ function imgChange(img) {
   var reader = new FileReader();
 
   reader.onload = function (e) {
-    // base64码 :e.target/e.target.result
-    console.log("e.target:", e.target);
+    // base64码 : e.target.result
+    console.log("e.target:", e.target, e.target.result);
     bgIMG.src = e.target.result;
     localStorage.setItem("bgIMG", e.target.result);
   }; //发起异步读取文件请求，读取结果为data:url的字符串形式，

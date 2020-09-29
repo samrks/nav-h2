@@ -189,7 +189,7 @@ main .SearchBox {
   top: 45vh;
   left: 50%;
   transform: translateX(-50%);
-  transition: all 0.4s;
+  transition: all 0.25s;
   display: none;
   opacity: 0;
   /*backdrop-filter: blur(20px);*/
@@ -332,4 +332,4 @@ footer {
 }
 
 
-/*# sourceMappingURL=style.3e824d15.css.map */
+/*# sourceMappingURL=style.01b8ba5c.css.map */
