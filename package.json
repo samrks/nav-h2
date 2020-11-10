@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "name": "nav-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
