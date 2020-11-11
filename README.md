@@ -1,4 +1,4 @@
-<img src="https://imgsubmit.oss-cn-beijing.aliyuncs.com/img/banner-%282%29.png" alt="banner" style="max-width:100%;" />
+<img src="https://imgsubmit.oss-cn-beijing.aliyuncs.com/img/banner-%282%29.png" alt="banner" style="max-width:100%;" align="center" />
 
 ##  简介
 
