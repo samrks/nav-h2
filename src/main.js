@@ -1,7 +1,8 @@
 // 入场
 bgIMG.style.opacity = "1"
-// 背景图片
-bgIMG.src = localStorage.getItem("bgIMG") || "http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/bg.jpg"
+// 背景图片(本地存储 或 默认图)
+bgIMG.src = localStorage.getItem("bgIMG") || "http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/MuskOxWinter_ROW3364177619_1920x1080.jpg"
+
 
 // footer 年份
 cYear.innerText = new Date().getFullYear()

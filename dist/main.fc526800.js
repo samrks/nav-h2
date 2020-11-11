@@ -119,9 +119,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"epB2":[function(require,module,exports) {
 // 入场
-bgIMG.style.opacity = "1"; // 背景图片
+bgIMG.style.opacity = "1"; // 背景图片(本地存储 或 默认图)
 
-bgIMG.src = localStorage.getItem("bgIMG") || "http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/bg.jpg"; // footer 年份
+bgIMG.src = localStorage.getItem("bgIMG") || "http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/MuskOxWinter_ROW3364177619_1920x1080.jpg"; // footer 年份
 
 cYear.innerText = new Date().getFullYear(); // 时间展示
 
@@ -511,4 +511,4 @@ function goToDetail() {
   file.style.opacity = "1";
 }
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.da80e30f.js.map
+//# sourceMappingURL=main.fc526800.js.map

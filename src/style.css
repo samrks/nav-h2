@@ -42,8 +42,6 @@ body {
   transition: all 0.25s;
 }
 .bgIMG {
-  /*display: none;*/
-  opacity: 0;
   z-index: -3;
   position: fixed;
   left: 0;
@@ -52,7 +50,7 @@ body {
   height: 100%;
   object-fit: cover;
   transition: opacity 1s, transform 0.25s, filter 0.25s;
-  /*backface-visibility: hidden;*/
+  backface-visibility: hidden; /* 解决页面切换时的黑边闪烁问题 */
 }
 .bgIMG.inputFocus {
   filter: blur(10px);
@@ -271,7 +269,7 @@ footer {
   border-radius: 6px;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-
+  /*max-width: 100%;*/
 }
 .footerBox .link {
   transition: all 0.3s;
@@ -323,5 +321,12 @@ footer {
   }
   #input0.focus {
     width: 300px;
+  }
+  .footerBox{
+    padding: 3px 9px;
+  }
+  .file{
+    top: 20px;
+    right: 20px;
   }
 }
