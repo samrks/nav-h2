@@ -22,9 +22,4 @@
 
 👇 搜索导航页
 
-![image-20201111190133459](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20201111190133459.png)
-
-
-
-
-
+![2](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/2.png)
