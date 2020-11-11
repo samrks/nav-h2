@@ -1,4 +1,4 @@
-![banner](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/banner.png)
+<img src="https://imgsubmit.oss-cn-beijing.aliyuncs.com/img/banner-%282%29.png" alt="banner" style="max-width:100%;" />
 
 ##  简介
 
@@ -6,7 +6,7 @@
 -   支持两种搜索引擎的切换
 -   提供了键盘导航功能
 -   用户可自定义键盘按键对应的网址，实现一键跳转
--   新增壁纸更换
+-   支持更换壁纸
 
 ## 操作
 
@@ -16,11 +16,11 @@
 
 ## 截图
 
-👇 清爽的主屏画面
+👇 干净清爽的主屏画面
 
-![image-20201111180459990](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20201111180459990.png)
+![image-20201111190142922](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20201111190142922.png)
 
 👇 搜索导航页
 
-![image-20201111180804763](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20201111180804763.png)
+![image-20201111190133459](http://imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20201111190133459.png)
 
